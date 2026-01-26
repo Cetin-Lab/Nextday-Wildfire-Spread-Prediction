@@ -159,7 +159,7 @@ Before training, select the desired model import and adjust hyperparameters acco
 
 - All HT/DCT blocks operate on power-of-two spatial resolutions.
 - Gaussian preprocessing is optional and configurable.
-- Both PyTorch and TensorFlow pipelines are supported.
+- Both PyTorch and TensorFlow environments are needed.
 
 
 
