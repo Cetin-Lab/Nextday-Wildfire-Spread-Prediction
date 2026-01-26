@@ -63,7 +63,7 @@ https://www.kaggle.com/datasets/georgehulsey/modified-next-day-wildfire-spread/d
 ### Visualization
 
 - **data_plot.py**  
-  Plots dataset samples for qualitative visualization and debugging.
+  Plots dataset samples for qualitative visualization.
 
 ***
 
@@ -159,7 +159,7 @@ Before training, select the desired model import and adjust hyperparameters acco
 
 - All HT/DCT blocks operate on power-of-two spatial resolutions.
 - Gaussian preprocessing is optional and configurable.
-- Both PyTorch and TensorFlow environments are needed.
+- Both PyTorch and TensorFlow environments are required (use conda activate tf_env on the lab Linux computer).
 
 
 
