@@ -9,9 +9,6 @@ F. Huot, R. L. Hu, N. Goyal, T. Sankar, M. Ihme, and Y.-F. Chen,
 **IEEE Transactions on Geoscience and Remote Sensing**, vol. 60, pp. 1–13, 2022, Art. no. 4412513.  
 DOI: 10.1109/TGRS.2022.3192974
 
-**Keywords:**  
-Indexes; Remote sensing; Vegetation mapping; Statistics; Sociology; Data models; Soft sensors; Earth Engine; Machine learning; Wildfire
-
 ***
 
 ## Dataset
