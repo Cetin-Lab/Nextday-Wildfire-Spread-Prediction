@@ -70,7 +70,11 @@ https://www.kaggle.com/datasets/georgehulsey/modified-next-day-wildfire-spread/d
 ## Models (`/models`)
 
 ### Baseline Model
-
+- **lite_unet_dct_wht_residual.py**
+  A U-Net architecture enhanced with dual spectral-domain feature extraction using the Discrete Cosine Transform (DCT) and Walsh–Hadamard Transform (WHT) at every encoder stage. The     transformed features are adaptively fused through a Learnable Spectral Attention Fusion (LSAF) module, which dynamically combines complementary frequency-domain representations        before convolutional processing. The network also incorporates residual connections at the third encoder stage and the bottleneck layer to improve feature propagation and training     stability.
+  <p align="center">
+  <img src="Slides/lite_unet_dct_wht_residual.png" width="700"/>
+  </p>
 - **cnn_autoencoder_model.py**  
   Original AECNN (CNN Autoencoder) model used in the Google wildfire prediction paper.
 
