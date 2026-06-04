@@ -73,7 +73,7 @@ https://www.kaggle.com/datasets/georgehulsey/modified-next-day-wildfire-spread/d
 - **lite_unet_dct_wht_shearlet.py**
   A U-Net architecture enhanced with multi-domain feature extraction using DCT, WHT, and cone-adapted digital Shearlet transforms. DCT and WHT representations are extracted in parallel and adaptively fused through a Learnable Spectral Attention Fusion (LSAF) module, while learnable Shearlet residual branches provide complementary directional and anisotropic feature modeling. The architecture integrates spectral, spatial, and directional information throughout the encoder and bottleneck stages, improving representation capacity and training stability.
   <p align="center">
-  <img src="Slides/lite_unet_dct_wht_residual.png" width="700"/>
+  <img src="Slides/lite_unet_dct_wht_shearlet.png" width="700"/>
   </p>
 - **lite_unet_dct_wht_residual.py**
   A U-Net architecture enhanced with dual spectral-domain feature extraction using the Discrete Cosine Transform (DCT) and Walsh–Hadamard Transform (WHT) at every encoder stage. The     transformed features are adaptively fused through a Learnable Spectral Attention Fusion (LSAF) module, which dynamically combines complementary frequency-domain representations        before convolutional processing. The network also incorporates residual connections at the third encoder stage and the bottleneck layer to improve feature propagation and training     stability.
